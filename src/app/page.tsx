@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -72,7 +72,6 @@ export default function Home() {
             {"text": "Schedule Consultation", "href": "contact"},
             {"text": "View Procedures", "href": "product"}
           ]}
-          textboxLayout="default"
         />
       </div>
       
